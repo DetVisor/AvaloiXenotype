@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>DV_Avaloi</defName>
+    <label>avaloi</label>
+    <description>Venators are naturally capable hunters and sharpshooters, adapted to taking down giant prey and curious outsiders on their tropical homeworld. This is by virtue of their natural farsightedness, allowing them to see clearly at great distances at the cost of having little competency with close quarters combat. As such, they possess lithe bodies and strong legs, ideal for maneuvering into a more advantageous position during combat. If a Venator is forced to engage in melee combat, they have hidden venom sacs that can inject a paralyzing neurotoxin into a victim, incapacitating them long enough to either escape or to allow for easy capture.\n\nOriginating from a long-lost colony ship that crashlanded onto a untamed jungleworld, Venators quickly adapted to their harsh, yet fauna-abundant environment. With agile physiques that could easily move through dense foliage and eyes adapted to killing from safe distances, Venators developed a hunting culture that made them the apex predators of their home planet. So significant was this lifestyle that even more civilized Venators find themselves drawn to occupations such as marksmen, hitmen, bounty hunters, and assassins. This, and their generally adversarial personalities, make most people try to avoid them, lest someone who offends a Venator, intentionally or otherwise, end up as a trophy on their mantlepiece.</description>
+    <descriptionShort>Venators are naturally capable hunters and sharpshooters, adapted to taking down giant prey and curious outsiders on their tropical homeworld. This is by virtue of their natural farsightedness, allowing them to see clearly at great distances at the cost of having little competency with close quarters combat. As such, they possess lithe bodies and strong legs, ideal for maneuvering into a more advantageous position during combat. If a Venator is forced to engage in melee combat, they have hidden venom sacs that can inject a paralyzing neurotoxin into a victim, incapacitating them long enough to either escape or to allow for easy capture.</descriptionShort>
+    <iconPath>UI/Xenotypes/Boglegs</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+    <li>Body_Thin</li>
+    <li>PsychicAbility_Extreme</li>
+    <li>WoundHealing_Slow</li>
+    <li>Aggression_DeadCalm</li>
+    <li>Pain_Extra</li>
+    <li>Learning_Fast</li>
+    <li>Beauty_Pretty</li>
+    <li>ChemicalDependency_Alcohol</li>
+    <li>AptitudeStrong_Artistic</li>
+    <li>AptitudeStrong_Intellectual</li>
+    <li>DV_ToxResist_Terrible</li>
+    <li>Immunity_Weak</li>
+    <li>MaxTemp_SmallDecrease</li>
+	  <li>DV_Head_Avaloi</li>
+	  <li>DV_Coral_Antlers</li>
+    <li>DV_Coral_Beards</li>
+    <li>Hair_BaldOnly</li>
+    <li>Beard_NoBeardOnly</li>
+    <li>Skin_SoftBlue</li>
+    <li>Skin_SoftYellow</li>
+    <li>Skin_SoftGreen</li>
+    <li>Skin_SoftPink</li>
+    <li>Skin_SoftRed</li>
+    <li>Hair_PaleBlue</li>
+    <li>Hair_PaleGreen</li>
+    <li>Hair_PaleOrange</li>
+    <li>Hair_PalePurple</li>
+    <li>Hair_PaleMagenta</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

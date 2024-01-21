@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef ParentName="GenePollutionBase">
+    <defName>DV_ToxResist_Terrible</defName>
+    <label>tox weakness</label>
+    <labelShortAdj>absorbant</labelShortAdj>
+    <description>Carriers of this gene are weaker to environmental toxins. Their skin and lungs absorbs toxic gases and takes more damage from tox gas, polluted terrain, and toxic fallout. They also build up rot stink exposure faster.</description>
+    <iconPath>UI/Genes/Gene_ToxWeakness</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <statOffsets>
+      <ToxicResistance>-0.3</ToxicResistance>
+    </statOffsets>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>tox</symbol>
+          <weight>2</weight>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneJawBase">
+    <defName>DV_Head_Avaloi</defName>
+    <label>three-eyed head</label>
+    <description>Carriers of this gene have a smooth head with 2 normal eyes and a third, less useful eye on their forehead.</description>
+    <iconPath>UI/Icons/Genes/Gene_GauntHead</iconPath>
+    <forcedHeadTypes>
+      <li>DV_Avaloi_AverageNormal</li>
+    </forcedHeadTypes>
+    <displayOrderInCategory>97</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>alien</symbol></li>
+        <li><symbol>three-eyed</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneNoseBase">
+    <defName>DV_Coral_Beards</defName>
+    <label>coral fans</label>
+    <description>Carriers of this gene grow beard-like appendages on their cheeks which can have various patterns and shapes.</description>
+    <iconPath>UI/Genes/Gene_CoralBeard</iconPath>
+    <graphicData>
+      <graphicPaths>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard1</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard2</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard3</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard4</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard5</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard6</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard7</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard8</li>
+       </graphicPaths>
+      <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+      <colorType>Hair</colorType>
+      <layer>PostHeadgear</layer>
+      <drawOffsetNorth>(0, -0.3, 0.1)</drawOffsetNorth>
+      <drawLoc>HeadTop</drawLoc>
+      <visibleNorth>true</visibleNorth>
+    </graphicData>
+    <missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>410</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>pig</symbol></li>
+        <li><symbol>pork</symbol></li>
+        <li><symbol>snout</symbol></li>
+        <li><symbol>boar</symbol></li>
+        <li><symbol>hog</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>pig</symbol></li>
+        <li><symbol>snout</symbol></li>
+        <li><symbol>swine</symbol></li>
+        <li><symbol>boar</symbol></li>
+        <li><symbol>hog</symbol></li>
+        <li><symbol>nose</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>DV_Coral_Antlers</defName>
+    <label>coral antlers</label>
+    <description>Carriers of this gene grow fleshy antle.</description>
+    <iconPath>UI/Genes/Gene_HeadboneAntlers</iconPath>
+    <graphicData>
+      <graphicPaths>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralAntlers/CoralAntlers1</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralAntlers/CoralAntlers2</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralAntlers/CoralAntlers3</li>
+        <li>Things/Pawn/Humanlike/HeadAttachments/CoralAntlers/CoralAntlers4</li>
+       </graphicPaths>
+      <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+      <colorType>Hair</colorType>
+      <layer>PostHeadgear</layer>
+      <drawOffsetNorth>(0, -0.3, 0.1)</drawOffsetNorth>
+      <drawLoc>HeadTop</drawLoc>
+    </graphicData>
+    <missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>410</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>pig</symbol></li>
+        <li><symbol>pork</symbol></li>
+        <li><symbol>snout</symbol></li>
+        <li><symbol>boar</symbol></li>
+        <li><symbol>hog</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>pig</symbol></li>
+        <li><symbol>snout</symbol></li>
+        <li><symbol>swine</symbol></li>
+        <li><symbol>boar</symbol></li>
+        <li><symbol>hog</symbol></li>
+        <li><symbol>nose</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_SoftPink</defName>
+    <label>soft pink skin</label>
+    <labelShortAdj>pink</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a dusty blue color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(235, 157, 239)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>blue</symbol></li>
+        <li><symbol>dusty</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_SoftRed</defName>
+    <label>soft red skin</label>
+    <labelShortAdj>red</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a dusty blue color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(229, 134, 136)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>blue</symbol></li>
+        <li><symbol>dusty</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_SoftBlue</defName>
+    <label>soft blue skin</label>
+    <labelShortAdj>blue</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a dusty blue color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(144, 205, 237)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>blue</symbol></li>
+        <li><symbol>dusty</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_SoftGreen</defName>
+    <label>soft green skin</label>
+    <labelShortAdj>green</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a dusty blue color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(160, 237, 132)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>blue</symbol></li>
+        <li><symbol>dusty</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_SoftYellow</defName>
+    <label>soft yellow skin</label>
+    <labelShortAdj>yellow</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a dusty blue color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(246, 237, 125)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>blue</symbol></li>
+        <li><symbol>dusty</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHairColorBase">
+    <defName>Hair_PaleOrange</defName>
+    <label>pale orange hair</label>
+    <hairColorOverride>(244, 180, 89)</hairColorOverride>
+    <selectionWeight>0.05</selectionWeight>
+    <displayOrderInCategory>130</displayOrderInCategory>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHairColorBase">
+    <defName>Hair_PaleGreen</defName>
+    <label>pale green hair</label>
+    <hairColorOverride>(93, 239, 129)</hairColorOverride>
+    <selectionWeight>0.05</selectionWeight>
+    <displayOrderInCategory>130</displayOrderInCategory>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHairColorBase">
+    <defName>Hair_PaleBlue</defName>
+    <label>pale blue hair</label>
+    <hairColorOverride>(124, 142, 218)</hairColorOverride>
+    <selectionWeight>0.05</selectionWeight>
+    <displayOrderInCategory>130</displayOrderInCategory>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHairColorBase">
+    <defName>Hair_PaleMagenta</defName>
+    <label>pale magenta hair</label>
+    <hairColorOverride>(225, 110, 161)</hairColorOverride>
+    <selectionWeight>0.05</selectionWeight>
+    <displayOrderInCategory>130</displayOrderInCategory>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHairColorBase">
+    <defName>Hair_PalePurple</defName>
+    <label>pale purple hair</label>
+    <hairColorOverride>(207, 111, 232)</hairColorOverride>
+    <selectionWeight>0.05</selectionWeight>
+    <displayOrderInCategory>130</displayOrderInCategory>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+  </GeneDef>
+
+</Defs>
