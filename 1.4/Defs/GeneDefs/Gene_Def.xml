@@ -87,7 +87,7 @@
   <GeneDef ParentName="GeneHeadboneBase">
     <defName>DV_Coral_Antlers</defName>
     <label>coral antlers</label>
-    <description>Carriers of this gene grow fleshy antle.</description>
+    <description>Carriers of this gene grow fleshy antlers on top of their head which can have various patterns and shapes.</description>
     <iconPath>UI/Genes/Gene_HeadboneAntlers</iconPath>
     <graphicData>
       <graphicPaths>
@@ -105,23 +105,6 @@
     <missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
     <displayCategory>Miscellaneous</displayCategory>
     <displayOrderInCategory>410</displayOrderInCategory>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>pig</symbol></li>
-        <li><symbol>pork</symbol></li>
-        <li><symbol>snout</symbol></li>
-        <li><symbol>boar</symbol></li>
-        <li><symbol>hog</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>pig</symbol></li>
-        <li><symbol>snout</symbol></li>
-        <li><symbol>swine</symbol></li>
-        <li><symbol>boar</symbol></li>
-        <li><symbol>hog</symbol></li>
-        <li><symbol>nose</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
   </GeneDef>
 
   <GeneDef ParentName="GeneSkinColorOverride">
@@ -134,9 +117,9 @@
     <displayOrderInCategory>65</displayOrderInCategory>
     <symbolPack>
       <prefixSymbols>
-        <li><symbol>dark</symbol></li>
-        <li><symbol>blue</symbol></li>
-        <li><symbol>dusty</symbol></li>
+        <li><symbol>light</symbol></li>
+        <li><symbol>pink</symbol></li>
+        <li><symbol>bright</symbol></li>
       </prefixSymbols>
     </symbolPack>
   </GeneDef>
@@ -151,9 +134,9 @@
     <displayOrderInCategory>65</displayOrderInCategory>
     <symbolPack>
       <prefixSymbols>
-        <li><symbol>dark</symbol></li>
-        <li><symbol>blue</symbol></li>
-        <li><symbol>dusty</symbol></li>
+        <li><symbol>light</symbol></li>
+        <li><symbol>red</symbol></li>
+        <li><symbol>bright</symbol></li>
       </prefixSymbols>
     </symbolPack>
   </GeneDef>
@@ -168,9 +151,9 @@
     <displayOrderInCategory>65</displayOrderInCategory>
     <symbolPack>
       <prefixSymbols>
-        <li><symbol>dark</symbol></li>
+        <li><symbol>light</symbol></li>
         <li><symbol>blue</symbol></li>
-        <li><symbol>dusty</symbol></li>
+        <li><symbol>bright</symbol></li>
       </prefixSymbols>
     </symbolPack>
   </GeneDef>
@@ -185,9 +168,9 @@
     <displayOrderInCategory>65</displayOrderInCategory>
     <symbolPack>
       <prefixSymbols>
-        <li><symbol>dark</symbol></li>
-        <li><symbol>blue</symbol></li>
-        <li><symbol>dusty</symbol></li>
+        <li><symbol>light</symbol></li>
+        <li><symbol>green</symbol></li>
+        <li><symbol>bright</symbol></li>
       </prefixSymbols>
     </symbolPack>
   </GeneDef>
@@ -202,9 +185,9 @@
     <displayOrderInCategory>65</displayOrderInCategory>
     <symbolPack>
       <prefixSymbols>
-        <li><symbol>dark</symbol></li>
-        <li><symbol>blue</symbol></li>
-        <li><symbol>dusty</symbol></li>
+        <li><symbol>light</symbol></li>
+        <li><symbol>yellow</symbol></li>
+        <li><symbol>bright</symbol></li>
       </prefixSymbols>
     </symbolPack>
   </GeneDef>
