@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JSqmR9SabtMs5S7BuoeGi+TDsVGZzywqFONz1feRqkCudLXMtO4SoaDNfEaOBEO7oWFalEYpoyE5K1bAq5GJlA==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AvaloiXenotype\\Source\\Avaloi\\Avaloi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Artemy\\.nuget\\packages\\krafs.publicizer\\2.2.1\\krafs.publicizer.2.2.1.nupkg.sha512",
+    "C:\\Users\\Artemy\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3901\\krafs.rimworld.ref.1.4.3901.nupkg.sha512"
+  ],
+  "logs": []
+}
