@@ -22,6 +22,30 @@
     </symbolPack>
   </GeneDef>
 
+  <GeneDef>
+    <defName>DV_PsychicInebriation</defName>
+    <label>psychic inebriation</label>
+    <iconPath>UI/Genes/Gene_PsychicInebriation</iconPath>
+    <geneClass>Avaloi.Gene_DrunkPsycaster</geneClass>
+    <description>Carriers of this gene form unique neural pathways that allow them to gain psychic sensitivity as they consume brewed drinks, mainly beer and other alcohols.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <customEffectDescriptions>
+      <li>Psychic sensitivity goes up with alcohol drunkness.</li>
+    </customEffectDescriptions>
+    <biostatCpx>1</biostatCpx>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>fat</symbol></li>
+        <li><symbol>chubby</symbol></li>
+        <li><symbol>blubber</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>bodied</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
   <GeneDef ParentName="GeneJawBase">
     <defName>DV_Head_Avaloi</defName>
     <label>three-eyed head</label>
