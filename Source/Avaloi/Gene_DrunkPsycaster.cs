@@ -38,6 +38,22 @@ namespace Avaloi
     {
         public Hediff cachedDrunk;
         public HediffStage cachedStage;
+        public DrunkPsycastingExtension cachedExtension;
+        public float cachedSeverity = -1f;
+
+        public DrunkPsycastingExtension Extension
+        {
+            get
+            {
+                if (cachedExtension != null)
+                {
+                    return cachedExtension;
+                }
+
+                cachedExtension = def.GetModExtension<DrunkPsycastingExtension>();
+                return cachedExtension;
+            }
+        }
 
         public Hediff DrunkHediff
         {
@@ -65,15 +81,33 @@ namespace Avaloi
                 if (cachedStage == null)
                 {
                     cachedStage = new HediffStage();
-                    cachedStage.statOffsets = new List<StatModifier>()
+                    cachedStage.statOffsets = new List<StatModifier>();
+
+                    for (int i = Extension.statOffsets.Count - 1; i >= 0; i--)
                     {
-                        new StatModifier() { stat = StatDefOf.PsychicSensitivity, value = 0.5f * DrunkHediff.Severity } 
-                    }; 
+                        cachedStage.statOffsets.Add(new StatModifier() { stat = Extension.statOffsets[i].stat, value = Extension.statOffsets[i].value * DrunkHediff.Severity });
+                    }
+
+                    cachedSeverity = DrunkHediff.Severity;
                 }
 
-                cachedStage.statOffsets[0].value = 0.5f * DrunkHediff.Severity;
+                if (DrunkHediff.Severity == cachedSeverity)
+                {
+                    return cachedStage;
+                }
+
+                cachedSeverity = DrunkHediff.Severity;
+                for (int i = Extension.statOffsets.Count - 1; i >= 0; i--)
+                {
+                    cachedStage.statOffsets[i].value = Extension.statOffsets[i].value * DrunkHediff.Severity;
+                }
                 return cachedStage;
             }
         }
-    } 
+    }
+
+    public class DrunkPsycastingExtension : DefModExtension
+    {
+        public List<StatModifier> statOffsets;
+    }
 }
