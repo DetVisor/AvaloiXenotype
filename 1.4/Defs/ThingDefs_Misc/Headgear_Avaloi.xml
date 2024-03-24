@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="HatMakeableBase">
+    <defName>DV_Headgear_AvaloiGlasses</defName>
+    <label>trilense glasses</label>
+    <description>A thin and delicate pair of glasses fitted for the unique heads of the Avaloi. Others can wear it, but they don't look as glamorous.</description>
+    <graphicData>
+        <texPath>Things/Pawn/Humanlike/Apparel/AvaloiGlasses/AvaloiGlasses</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0</generateCommonality>
+    <costList>
+        <Steel>12</Steel>
+    </costList>
+    <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1200</WorkToMake>
+        <Mass>0.01</Mass>
+        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.04</ArmorRating_Heat>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <EquipDelay>0.4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+        <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <thingCategories Inherit='False'>
+        <li>Headgear</li>
+    </thingCategories>
+    <apparel>
+        <countsAsClothingForNudity>false</countsAsClothingForNudity>
+        <bodyPartGroups>
+            <li>Eyes</li>
+        </bodyPartGroups>
+        <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AvaloiGlasses/AvaloiGlasses</wornGraphicPath>
+        <hatRenderedFrontOfFace>false</hatRenderedFrontOfFace>
+        <forceRenderUnderHair>true</forceRenderUnderHair>
+        <useWornGraphicMask>true</useWornGraphicMask>
+        <layers>
+            <li>EyeCover</li>
+        </layers>
+        <tags>
+            <li>IndustrialBasic</li>
+        </tags>
+        <defaultOutfitTags>
+            <li>Worker</li>
+        </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+        <recipeUsers Inherit="False">
+            <li>ElectricTailoringBench</li>
+            <li>HandTailoringBench</li>
+        </recipeUsers>
+    </recipeMaker>
+</ThingDef>
+
+</Defs>

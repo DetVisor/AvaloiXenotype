@@ -69,8 +69,11 @@
     <label>coral fans</label>
     <description>Carriers of this gene grow beard-like appendages on their cheeks which can have various patterns and shapes.</description>
     <iconPath>UI/Genes/Gene_CoralBeard</iconPath>
-    <graphicData>
-      <graphicPaths>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>  
+      <texPaths>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard1</li>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard2</li>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard3</li>
@@ -79,14 +82,23 @@
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard6</li>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard7</li>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralBeards/CoralBeard8</li>
-       </graphicPaths>
+       </texPaths>
       <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
       <colorType>Hair</colorType>
-      <layer>PostHeadgear</layer>
-      <drawOffsetNorth>(0, -0.3, 0.1)</drawOffsetNorth>
-      <drawLoc>HeadTop</drawLoc>
-      <visibleNorth>true</visibleNorth>
-    </graphicData>
+      <parentTagDef>Head</parentTagDef>
+      <useRottenColor>true</useRottenColor>
+      <rotDrawMode>Fresh, Rotting</rotDrawMode>
+      <drawData>
+        <defaultData>
+          <layer>70</layer>
+        </defaultData>
+        <dataNorth>
+          <offset>(0, 0, 0.1)</offset>
+          <layer>10</layer>
+        </dataNorth>
+      </drawData>
+      </li>
+    </renderNodeProperties> 
     <displayCategory>Miscellaneous</displayCategory>
     <displayOrderInCategory>410</displayOrderInCategory>
     <symbolPack>
@@ -113,19 +125,32 @@
     <label>coral antlers</label>
     <description>Carriers of this gene grow fleshy antlers on top of their head which can have various patterns and shapes.</description>
     <iconPath>UI/Genes/Gene_HeadboneAntlers</iconPath>
-    <graphicData>
-      <graphicPaths>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>  
+       <texPaths>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralAntlers/CoralAntlers1</li>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralAntlers/CoralAntlers2</li>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralAntlers/CoralAntlers3</li>
         <li>Things/Pawn/Humanlike/HeadAttachments/CoralAntlers/CoralAntlers4</li>
-       </graphicPaths>
+       </texPaths>
       <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
       <colorType>Hair</colorType>
-      <layer>PostHeadgear</layer>
-      <drawOffsetNorth>(0, -0.3, 0.1)</drawOffsetNorth>
-      <drawLoc>HeadTop</drawLoc>
-    </graphicData>
+      <parentTagDef>Head</parentTagDef>
+      <useRottenColor>true</useRottenColor>
+      <rotDrawMode>Fresh, Rotting</rotDrawMode>
+      <drawData>
+        <defaultData>
+          <layer>70</layer>
+        </defaultData>
+        <dataNorth>
+          <offset>(0, 0, 0.1)</offset>
+          <layer>10</layer>
+        </dataNorth>
+      </drawData>
+      </li>
+    </renderNodeProperties> 
     <displayCategory>Miscellaneous</displayCategory>
     <displayOrderInCategory>410</displayOrderInCategory>
   </GeneDef>
