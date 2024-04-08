@@ -38,8 +38,14 @@
             <li>Eyes</li>
         </bodyPartGroups>
         <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AvaloiGlasses/AvaloiGlasses</wornGraphicPath>
-        <hatRenderedFrontOfFace>false</hatRenderedFrontOfFace>
-        <forceRenderUnderHair>true</forceRenderUnderHair>
+        <renderSkipFlags>
+            <li>None</li>
+          </renderSkipFlags>
+          <drawData>
+            <dataNorth>
+              <layer>-3</layer>
+            </dataNorth>
+          </drawData>
         <useWornGraphicMask>true</useWornGraphicMask>
         <layers>
             <li>EyeCover</li>
