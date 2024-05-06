@@ -4,3 +4,5 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AvaloiXenotype\Sourc
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AvaloiXenotype\Source\Avaloi\obj\Debug\Avaloi.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AvaloiXenotype\Source\Avaloi\obj\Debug\Avaloi.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AvaloiXenotype\Source\Avaloi\obj\Debug\Avaloi.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AvaloiXenotype\1.5\Assemblies\Avaloi.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AvaloiXenotype\1.5\Assemblies\Avaloi.pdb
