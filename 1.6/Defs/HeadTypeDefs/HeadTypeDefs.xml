@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<HeadTypeDef ParentName="AverageBase">
+    <defName>DV_Avaloi_AverageNormal</defName>
+    <randomChosen>false</randomChosen>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Avaloi_AverageNormal</graphicPath>
+    <gender>None</gender>
+    <requiredGenes>
+        <li>DV_Head_Avaloi</li>
+    </requiredGenes>
+</HeadTypeDef>
+</Defs>
