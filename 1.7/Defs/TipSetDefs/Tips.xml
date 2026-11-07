@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TipSetDef>
+    <defName>DV_AvaloiTip</defName>
+    <tips>
+
+      <li TKey="AvaloiTip">If avaloi had more discipline and control, they could be unstoppable.. but they don't.</li>
+
+    </tips>
+  </TipSetDef>
+
+</Defs>

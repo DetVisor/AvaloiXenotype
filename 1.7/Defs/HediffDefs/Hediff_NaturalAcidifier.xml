@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<HediffDef>
+    <defName>DV_NaturalAcidifier</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>natural acidifier</label>
+    <description>An installed death acidifier.</description>
+    <comps>
+      <li Class="HediffCompProperties_DissolveGearOnDeath">
+        <fleck>AcidCloud</fleck>
+        <moteCount>6</moteCount>
+        <moteOffsetRange>0.25~0.75</moteOffsetRange>
+        <filth>Filth_Slime</filth>
+        <sound>DeathAcidifier</sound>
+        <injuryCreatedOnDeath>ChemicalBurn</injuryCreatedOnDeath>
+        <injuryCount>3~6</injuryCount>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+</Defs>
